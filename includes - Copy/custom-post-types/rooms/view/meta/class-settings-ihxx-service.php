@@ -1,0 +1,71 @@
+<?php
+namespace LoftOcean\Room\Settings;
+
+if ( ! class_exists( '\LoftOcean\Room\Settings\ihxx_Services' ) ) {
+    class ihxx_Services {
+        /**
+         * Construct function
+         */
+        public function __construct() {
+            add_action( 'loftocean_room_the_settings_tabs', array( $this, 'get_room_setting_tabs' ) );
+            add_action( 'loftocean_room_the_settings_panel', array( $this, 'the_room_setting_panel' ) );
+            add_action( 'loftocean_save_room_settings', array( $this, 'save_room_settings' ) );
+        }
+        /**
+         * Tab titles
+         */
+        public function get_room_setting_tabs( $pid ) { ?>
+            <li class="loftocean-room room-options tab-ihxx-services">
+            <a href="#tab-ihxx-services"><span><?php esc_html_e( 'نوع اتاق', 'loftocean' ); ?></span></a>
+            </li><?php
+        }
+        /**
+         * Tab panel
+         */
+        public function the_room_setting_panel( $pid ) {
+            $data = $this->get_room_data( $pid );
+            $current_services = apply_filters( 'loftocean_get_room_ihxx_services', false ); ?>
+            <div id="tab-ihxx-services-panel" class="panel loftocean-room-setting-panel hidden">
+            <div class="options-group"><?php
+                foreach ( $current_services as $cs ) :
+                    $sid = $cs[ 'term_id' ];
+                    $current_service_enabled = in_array( $sid, $data ); ?>
+                    <p class="form-field facility-field">
+                    <label><?php echo esc_html( $cs[ 'name' ] ); ?></label>
+                    <input type="checkbox" name="loftocean_room[ihxx_services][<?php echo esc_attr( $sid ); ?>][enabled]" value="on"<?php if ( $current_service_enabled ) : ?> checked<?php endif; ?>>
+                    <input type="hidden" name="loftocean_room[ihxx_services][<?php echo esc_attr( $sid ); ?>][term_id]" value="<?php echo esc_attr( $sid ); ?>" >
+                    </p><?php
+                endforeach; ?>
+            </div>
+            </div><?php
+        }
+        /*
+        * Get current ihxx services data
+        */
+        public function get_room_data( $room_id ) {
+            return apply_filters( 'loftocean_get_room_ihxx_services_enabled', array(), $room_id );
+        }
+        /**
+         * Save room settings
+         */
+        public function save_room_settings( $pid ) {
+            if ( isset( $_REQUEST[ 'loftocean_room' ], $_REQUEST[ 'loftocean_room' ][ 'ihxx_services' ] ) ) {
+                $data = wp_unslash( $_REQUEST[ 'loftocean_room' ][ 'ihxx_services' ] );
+                $taxonomy = 'lo_room_ihxx_services';
+                $services = array();
+                if ( \LoftOcean\is_valid_array( $data ) ) {
+                    foreach( $data as $val ) {
+                        $term = get_term( absint( $val[ 'term_id' ] ), $taxonomy, ARRAY_A );
+                        if ( ( ! is_wp_error( $term ) ) && \LoftOcean\is_valid_array( $term ) ) {
+                            if ( 'on' == sanitize_text_field( $val[ 'enabled' ] ) ) {
+                                $services[] = absint( $val[ 'term_id' ] );
+                            }
+                        }
+                    }
+                }
+                wp_set_post_terms( $pid, $services, $taxonomy );
+            }
+        }
+    }
+    new ihxx_Services();
+}
