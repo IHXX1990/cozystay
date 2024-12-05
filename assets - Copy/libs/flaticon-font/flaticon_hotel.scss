@@ -1,0 +1,985 @@
+$flaticon_hotel-font: "flaticon_hotel";
+
+@font-face {
+    font-family: $flaticon_hotel-font;
+    src: url("./flaticon_hotel.ttf?97be21fcc3f637e8bbba2cb5933e0a21") format("truetype"),
+url("./flaticon_hotel.woff?97be21fcc3f637e8bbba2cb5933e0a21") format("woff"),
+url("./flaticon_hotel.woff2?97be21fcc3f637e8bbba2cb5933e0a21") format("woff2"),
+url("./flaticon_hotel.eot?97be21fcc3f637e8bbba2cb5933e0a21#iefix") format("embedded-opentype"),
+url("./flaticon_hotel.svg?97be21fcc3f637e8bbba2cb5933e0a21#flaticon_hotel") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_hotel !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_hotel-map: (
+    "resort": "\f101",
+    "resort-1": "\f102",
+    "do-not-disturb": "\f103",
+    "hotel-sign": "\f104",
+    "resort-2": "\f105",
+    "hotel": "\f106",
+    "review": "\f107",
+    "bedroom": "\f108",
+    "hotel-1": "\f109",
+    "guest-house": "\f10a",
+    "hotel-cart": "\f10b",
+    "key-card": "\f10c",
+    "reception": "\f10d",
+    "room-service": "\f10e",
+    "desk-bell": "\f10f",
+    "service": "\f110",
+    "check-in": "\f111",
+    "room-service-1": "\f112",
+    "coffee": "\f113",
+    "hotel-2": "\f114",
+    "hotel-3": "\f115",
+    "hotel-bell": "\f116",
+    "food-service": "\f117",
+    "room-service-2": "\f118",
+    "customer-service": "\f119",
+    "sunrise": "\f11a",
+    "around": "\f11b",
+    "world": "\f11c",
+    "destination": "\f11d",
+    "signpost": "\f11e",
+    "travel-map": "\f11f",
+    "landscape": "\f120",
+    "location": "\f121",
+    "passport": "\f122",
+    "suitcase": "\f123",
+    "plane-ticket": "\f124",
+    "flight": "\f125",
+    "luggage": "\f126",
+    "vacation": "\f127",
+    "travel-bag": "\f128",
+    "travel-bag-1": "\f129",
+    "traveling": "\f12a",
+    "airplane": "\f12b",
+    "suitcase-1": "\f12c",
+    "map": "\f12d",
+    "bed": "\f12e",
+    "bed-1": "\f12f",
+    "bed-2": "\f130",
+    "bed-3": "\f131",
+    "bed-4": "\f132",
+    "bed-5": "\f133",
+    "bed-6": "\f134",
+    "bed-7": "\f135",
+    "beds": "\f136",
+    "bed-8": "\f137",
+    "bed-9": "\f138",
+    "single-bed": "\f139",
+    "account": "\f13a",
+    "user": "\f13b",
+    "user-1": "\f13c",
+    "user-2": "\f13d",
+    "users": "\f13e",
+    "friends": "\f13f",
+    "group": "\f140",
+    "towel": "\f141",
+    "mug": "\f142",
+    "sandwich": "\f143",
+    "breakfast": "\f144",
+    "breakfast-1": "\f145",
+    "breakfast-2": "\f146",
+    "croissant": "\f147",
+    "breakfast-3": "\f148",
+    "breakfast-4": "\f149",
+    "dinner": "\f14a",
+    "breakfast-5": "\f14b",
+    "croissant-1": "\f14c",
+    "food-tray": "\f14d",
+    "breakfast-6": "\f14e",
+    "food-tray-1": "\f14f",
+    "room-service-3": "\f150",
+    "croissant-2": "\f151",
+    "coffee-cup": "\f152",
+    "parking": "\f153",
+    "pet-hotel": "\f154",
+    "calendar": "\f155",
+    "calendar-1": "\f156",
+    "calendar-2": "\f157",
+    "calendar-3": "\f158",
+    "car": "\f159",
+    "car-1": "\f15a",
+    "rental-car": "\f15b",
+    "charging": "\f15c",
+    "electric-car": "\f15d",
+    "protection": "\f15e",
+    "car-wash": "\f15f",
+    "parking-1": "\f160",
+    "calendar-4": "\f161",
+    "car-key": "\f162",
+    "route": "\f163",
+    "energy": "\f164",
+    "shopping-cart": "\f165",
+    "shopping-cart-1": "\f166",
+    "shopping-cart-2": "\f167",
+    "trolley": "\f168",
+    "bag": "\f169",
+    "add-to-cart": "\f16a",
+    "hotel-4": "\f16b",
+    "sofa": "\f16c",
+    "air-conditioner": "\f16d",
+    "reception-1": "\f16e",
+    "booked": "\f16f",
+    "ac": "\f170",
+    "air": "\f171",
+    "ac-1": "\f172",
+    "air-conditioner-1": "\f173",
+    "air-conditioner-2": "\f174",
+    "air-conditioner-3": "\f175",
+    "wifi": "\f176",
+    "wifi-1": "\f177",
+    "wireless-connection": "\f178",
+    "air-conditioner-4": "\f179",
+    "wifi-signal": "\f17a",
+    "wifi-2": "\f17b",
+    "wifi-signal-1": "\f17c",
+    "wifi-3": "\f17d",
+    "wifi-4": "\f17e",
+    "wifi-connection": "\f17f",
+    "wifi-5": "\f180",
+    "wifi-6": "\f181",
+    "refrigerator": "\f182",
+    "fridge": "\f183",
+    "refrigerator-1": "\f184",
+    "fridge-1": "\f185",
+    "fridge-2": "\f186",
+    "snowflake": "\f187",
+    "gym": "\f188",
+    "gym-1": "\f189",
+    "training": "\f18a",
+    "weights": "\f18b",
+    "stationary-bike": "\f18c",
+    "yoga-pose": "\f18d",
+    "lotus": "\f18e",
+    "stationary-bike-1": "\f18f",
+    "fitness": "\f190",
+    "barbell": "\f191",
+    "treadmill": "\f192",
+    "aromatherapy": "\f193",
+    "aromatherapy-1": "\f194",
+    "massage": "\f195",
+    "essential-oil": "\f196",
+    "aromatherapy-2": "\f197",
+    "massage-1": "\f198",
+    "spa": "\f199",
+    "aromatherapy-3": "\f19a",
+    "shower": "\f19b",
+    "shower-1": "\f19c",
+    "bathtub": "\f19d",
+    "bathtub-1": "\f19e",
+    "bathtub-2": "\f19f",
+    "bathtub-3": "\f1a0",
+    "bathtub-4": "\f1a1",
+    "shower-2": "\f1a2",
+    "bathtub-5": "\f1a3",
+    "bathroom": "\f1a4",
+    "bathing": "\f1a5",
+    "swimming-pool": "\f1a6",
+    "swimming-pool-1": "\f1a7",
+    "ladder": "\f1a8",
+    "swimming-pool-2": "\f1a9",
+    "pool": "\f1aa",
+    "pool-1": "\f1ab",
+    "hot-tub": "\f1ac",
+    "sun-bath": "\f1ad",
+    "washing-machine": "\f1ae",
+    "laundry-service": "\f1af",
+    "area": "\f1b0",
+    "area-1": "\f1b1",
+    "maximize": "\f1b2",
+    "full-screen": "\f1b3",
+    "resize": "\f1b4",
+    "text-area": "\f1b5",
+    "moka-pot": "\f1b6",
+    "espresso": "\f1b7",
+    "kettle": "\f1b8",
+    "baby-crib": "\f1b9",
+    "crib": "\f1ba",
+    "hair-dryer": "\f1bb",
+    "slippers": "\f1bc",
+    "shampoo": "\f1bd",
+    "towel-1": "\f1be",
+    "towel-2": "\f1bf",
+    "towel-3": "\f1c0",
+    "bicycle": "\f1c1",
+    "goal": "\f1c2",
+    "barbeque": "\f1c3",
+    "barbecue": "\f1c4",
+    "bar-counter": "\f1c5",
+    "cocktail": "\f1c6",
+    "cocktail-1": "\f1c7",
+    "cocktail-2": "\f1c8",
+    "veterinary": "\f1c9",
+    "disabilities": "\f1ca",
+    "wheelchair": "\f1cb",
+    "hot": "\f1cc",
+    "sunny": "\f1cd",
+    "weather": "\f1ce",
+    "television": "\f1cf",
+    "landscape-1": "\f1d0",
+    "landscape-2": "\f1d1",
+    "signpost-1": "\f1d2",
+    "biodiversity": "\f1d3",
+    "biodiversity-1": "\f1d4",
+    "gluten-free": "\f1d5",
+    "salad": "\f1d6",
+    "plant-based": "\f1d7",
+    "tuxedo": "\f1d8",
+    "clothes": "\f1d9",
+    "open-sign": "\f1da",
+    "24-hours": "\f1db",
+    "reserved": "\f1dc",
+    "snowboard": "\f1dd",
+    "ski-equipment": "\f1de",
+    "ski-lift": "\f1df",
+    "alpine": "\f1e0",
+    "goggles": "\f1e1",
+    "snorkel": "\f1e2",
+    "serving-dish": "\f1e3",
+    "wine": "\f1e4",
+    "safe-box": "\f1e5",
+    "strongbox": "\f1e6",
+    "charity": "\f1e7",
+    "win": "\f1e8",
+    "shield": "\f1e9",
+    "payment-protection": "\f1ea",
+    "credit-card-payment": "\f1eb",
+    "circular-clock": "\f1ec",
+    "calendar-5": "\f1ed",
+    "presentation": "\f1ee",
+    "board": "\f1ef",
+    "printer": "\f1f0",
+);
+
+.flaticon-resort:before {
+    content: map-get($flaticon_hotel-map, "resort");
+}
+.flaticon-resort-1:before {
+    content: map-get($flaticon_hotel-map, "resort-1");
+}
+.flaticon-do-not-disturb:before {
+    content: map-get($flaticon_hotel-map, "do-not-disturb");
+}
+.flaticon-hotel-sign:before {
+    content: map-get($flaticon_hotel-map, "hotel-sign");
+}
+.flaticon-resort-2:before {
+    content: map-get($flaticon_hotel-map, "resort-2");
+}
+.flaticon-hotel:before {
+    content: map-get($flaticon_hotel-map, "hotel");
+}
+.flaticon-review:before {
+    content: map-get($flaticon_hotel-map, "review");
+}
+.flaticon-bedroom:before {
+    content: map-get($flaticon_hotel-map, "bedroom");
+}
+.flaticon-hotel-1:before {
+    content: map-get($flaticon_hotel-map, "hotel-1");
+}
+.flaticon-guest-house:before {
+    content: map-get($flaticon_hotel-map, "guest-house");
+}
+.flaticon-hotel-cart:before {
+    content: map-get($flaticon_hotel-map, "hotel-cart");
+}
+.flaticon-key-card:before {
+    content: map-get($flaticon_hotel-map, "key-card");
+}
+.flaticon-reception:before {
+    content: map-get($flaticon_hotel-map, "reception");
+}
+.flaticon-room-service:before {
+    content: map-get($flaticon_hotel-map, "room-service");
+}
+.flaticon-desk-bell:before {
+    content: map-get($flaticon_hotel-map, "desk-bell");
+}
+.flaticon-service:before {
+    content: map-get($flaticon_hotel-map, "service");
+}
+.flaticon-check-in:before {
+    content: map-get($flaticon_hotel-map, "check-in");
+}
+.flaticon-room-service-1:before {
+    content: map-get($flaticon_hotel-map, "room-service-1");
+}
+.flaticon-coffee:before {
+    content: map-get($flaticon_hotel-map, "coffee");
+}
+.flaticon-hotel-2:before {
+    content: map-get($flaticon_hotel-map, "hotel-2");
+}
+.flaticon-hotel-3:before {
+    content: map-get($flaticon_hotel-map, "hotel-3");
+}
+.flaticon-hotel-bell:before {
+    content: map-get($flaticon_hotel-map, "hotel-bell");
+}
+.flaticon-food-service:before {
+    content: map-get($flaticon_hotel-map, "food-service");
+}
+.flaticon-room-service-2:before {
+    content: map-get($flaticon_hotel-map, "room-service-2");
+}
+.flaticon-customer-service:before {
+    content: map-get($flaticon_hotel-map, "customer-service");
+}
+.flaticon-sunrise:before {
+    content: map-get($flaticon_hotel-map, "sunrise");
+}
+.flaticon-around:before {
+    content: map-get($flaticon_hotel-map, "around");
+}
+.flaticon-world:before {
+    content: map-get($flaticon_hotel-map, "world");
+}
+.flaticon-destination:before {
+    content: map-get($flaticon_hotel-map, "destination");
+}
+.flaticon-signpost:before {
+    content: map-get($flaticon_hotel-map, "signpost");
+}
+.flaticon-travel-map:before {
+    content: map-get($flaticon_hotel-map, "travel-map");
+}
+.flaticon-landscape:before {
+    content: map-get($flaticon_hotel-map, "landscape");
+}
+.flaticon-location:before {
+    content: map-get($flaticon_hotel-map, "location");
+}
+.flaticon-passport:before {
+    content: map-get($flaticon_hotel-map, "passport");
+}
+.flaticon-suitcase:before {
+    content: map-get($flaticon_hotel-map, "suitcase");
+}
+.flaticon-plane-ticket:before {
+    content: map-get($flaticon_hotel-map, "plane-ticket");
+}
+.flaticon-flight:before {
+    content: map-get($flaticon_hotel-map, "flight");
+}
+.flaticon-luggage:before {
+    content: map-get($flaticon_hotel-map, "luggage");
+}
+.flaticon-vacation:before {
+    content: map-get($flaticon_hotel-map, "vacation");
+}
+.flaticon-travel-bag:before {
+    content: map-get($flaticon_hotel-map, "travel-bag");
+}
+.flaticon-travel-bag-1:before {
+    content: map-get($flaticon_hotel-map, "travel-bag-1");
+}
+.flaticon-traveling:before {
+    content: map-get($flaticon_hotel-map, "traveling");
+}
+.flaticon-airplane:before {
+    content: map-get($flaticon_hotel-map, "airplane");
+}
+.flaticon-suitcase-1:before {
+    content: map-get($flaticon_hotel-map, "suitcase-1");
+}
+.flaticon-map:before {
+    content: map-get($flaticon_hotel-map, "map");
+}
+.flaticon-bed:before {
+    content: map-get($flaticon_hotel-map, "bed");
+}
+.flaticon-bed-1:before {
+    content: map-get($flaticon_hotel-map, "bed-1");
+}
+.flaticon-bed-2:before {
+    content: map-get($flaticon_hotel-map, "bed-2");
+}
+.flaticon-bed-3:before {
+    content: map-get($flaticon_hotel-map, "bed-3");
+}
+.flaticon-bed-4:before {
+    content: map-get($flaticon_hotel-map, "bed-4");
+}
+.flaticon-bed-5:before {
+    content: map-get($flaticon_hotel-map, "bed-5");
+}
+.flaticon-bed-6:before {
+    content: map-get($flaticon_hotel-map, "bed-6");
+}
+.flaticon-bed-7:before {
+    content: map-get($flaticon_hotel-map, "bed-7");
+}
+.flaticon-beds:before {
+    content: map-get($flaticon_hotel-map, "beds");
+}
+.flaticon-bed-8:before {
+    content: map-get($flaticon_hotel-map, "bed-8");
+}
+.flaticon-bed-9:before {
+    content: map-get($flaticon_hotel-map, "bed-9");
+}
+.flaticon-single-bed:before {
+    content: map-get($flaticon_hotel-map, "single-bed");
+}
+.flaticon-account:before {
+    content: map-get($flaticon_hotel-map, "account");
+}
+.flaticon-user:before {
+    content: map-get($flaticon_hotel-map, "user");
+}
+.flaticon-user-1:before {
+    content: map-get($flaticon_hotel-map, "user-1");
+}
+.flaticon-user-2:before {
+    content: map-get($flaticon_hotel-map, "user-2");
+}
+.flaticon-users:before {
+    content: map-get($flaticon_hotel-map, "users");
+}
+.flaticon-friends:before {
+    content: map-get($flaticon_hotel-map, "friends");
+}
+.flaticon-group:before {
+    content: map-get($flaticon_hotel-map, "group");
+}
+.flaticon-towel:before {
+    content: map-get($flaticon_hotel-map, "towel");
+}
+.flaticon-mug:before {
+    content: map-get($flaticon_hotel-map, "mug");
+}
+.flaticon-sandwich:before {
+    content: map-get($flaticon_hotel-map, "sandwich");
+}
+.flaticon-breakfast:before {
+    content: map-get($flaticon_hotel-map, "breakfast");
+}
+.flaticon-breakfast-1:before {
+    content: map-get($flaticon_hotel-map, "breakfast-1");
+}
+.flaticon-breakfast-2:before {
+    content: map-get($flaticon_hotel-map, "breakfast-2");
+}
+.flaticon-croissant:before {
+    content: map-get($flaticon_hotel-map, "croissant");
+}
+.flaticon-breakfast-3:before {
+    content: map-get($flaticon_hotel-map, "breakfast-3");
+}
+.flaticon-breakfast-4:before {
+    content: map-get($flaticon_hotel-map, "breakfast-4");
+}
+.flaticon-dinner:before {
+    content: map-get($flaticon_hotel-map, "dinner");
+}
+.flaticon-breakfast-5:before {
+    content: map-get($flaticon_hotel-map, "breakfast-5");
+}
+.flaticon-croissant-1:before {
+    content: map-get($flaticon_hotel-map, "croissant-1");
+}
+.flaticon-food-tray:before {
+    content: map-get($flaticon_hotel-map, "food-tray");
+}
+.flaticon-breakfast-6:before {
+    content: map-get($flaticon_hotel-map, "breakfast-6");
+}
+.flaticon-food-tray-1:before {
+    content: map-get($flaticon_hotel-map, "food-tray-1");
+}
+.flaticon-room-service-3:before {
+    content: map-get($flaticon_hotel-map, "room-service-3");
+}
+.flaticon-croissant-2:before {
+    content: map-get($flaticon_hotel-map, "croissant-2");
+}
+.flaticon-coffee-cup:before {
+    content: map-get($flaticon_hotel-map, "coffee-cup");
+}
+.flaticon-parking:before {
+    content: map-get($flaticon_hotel-map, "parking");
+}
+.flaticon-pet-hotel:before {
+    content: map-get($flaticon_hotel-map, "pet-hotel");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon_hotel-map, "calendar");
+}
+.flaticon-calendar-1:before {
+    content: map-get($flaticon_hotel-map, "calendar-1");
+}
+.flaticon-calendar-2:before {
+    content: map-get($flaticon_hotel-map, "calendar-2");
+}
+.flaticon-calendar-3:before {
+    content: map-get($flaticon_hotel-map, "calendar-3");
+}
+.flaticon-car:before {
+    content: map-get($flaticon_hotel-map, "car");
+}
+.flaticon-car-1:before {
+    content: map-get($flaticon_hotel-map, "car-1");
+}
+.flaticon-rental-car:before {
+    content: map-get($flaticon_hotel-map, "rental-car");
+}
+.flaticon-charging:before {
+    content: map-get($flaticon_hotel-map, "charging");
+}
+.flaticon-electric-car:before {
+    content: map-get($flaticon_hotel-map, "electric-car");
+}
+.flaticon-protection:before {
+    content: map-get($flaticon_hotel-map, "protection");
+}
+.flaticon-car-wash:before {
+    content: map-get($flaticon_hotel-map, "car-wash");
+}
+.flaticon-parking-1:before {
+    content: map-get($flaticon_hotel-map, "parking-1");
+}
+.flaticon-calendar-4:before {
+    content: map-get($flaticon_hotel-map, "calendar-4");
+}
+.flaticon-car-key:before {
+    content: map-get($flaticon_hotel-map, "car-key");
+}
+.flaticon-route:before {
+    content: map-get($flaticon_hotel-map, "route");
+}
+.flaticon-energy:before {
+    content: map-get($flaticon_hotel-map, "energy");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon_hotel-map, "shopping-cart");
+}
+.flaticon-shopping-cart-1:before {
+    content: map-get($flaticon_hotel-map, "shopping-cart-1");
+}
+.flaticon-shopping-cart-2:before {
+    content: map-get($flaticon_hotel-map, "shopping-cart-2");
+}
+.flaticon-trolley:before {
+    content: map-get($flaticon_hotel-map, "trolley");
+}
+.flaticon-bag:before {
+    content: map-get($flaticon_hotel-map, "bag");
+}
+.flaticon-add-to-cart:before {
+    content: map-get($flaticon_hotel-map, "add-to-cart");
+}
+.flaticon-hotel-4:before {
+    content: map-get($flaticon_hotel-map, "hotel-4");
+}
+.flaticon-sofa:before {
+    content: map-get($flaticon_hotel-map, "sofa");
+}
+.flaticon-air-conditioner:before {
+    content: map-get($flaticon_hotel-map, "air-conditioner");
+}
+.flaticon-reception-1:before {
+    content: map-get($flaticon_hotel-map, "reception-1");
+}
+.flaticon-booked:before {
+    content: map-get($flaticon_hotel-map, "booked");
+}
+.flaticon-ac:before {
+    content: map-get($flaticon_hotel-map, "ac");
+}
+.flaticon-air:before {
+    content: map-get($flaticon_hotel-map, "air");
+}
+.flaticon-ac-1:before {
+    content: map-get($flaticon_hotel-map, "ac-1");
+}
+.flaticon-air-conditioner-1:before {
+    content: map-get($flaticon_hotel-map, "air-conditioner-1");
+}
+.flaticon-air-conditioner-2:before {
+    content: map-get($flaticon_hotel-map, "air-conditioner-2");
+}
+.flaticon-air-conditioner-3:before {
+    content: map-get($flaticon_hotel-map, "air-conditioner-3");
+}
+.flaticon-wifi:before {
+    content: map-get($flaticon_hotel-map, "wifi");
+}
+.flaticon-wifi-1:before {
+    content: map-get($flaticon_hotel-map, "wifi-1");
+}
+.flaticon-wireless-connection:before {
+    content: map-get($flaticon_hotel-map, "wireless-connection");
+}
+.flaticon-air-conditioner-4:before {
+    content: map-get($flaticon_hotel-map, "air-conditioner-4");
+}
+.flaticon-wifi-signal:before {
+    content: map-get($flaticon_hotel-map, "wifi-signal");
+}
+.flaticon-wifi-2:before {
+    content: map-get($flaticon_hotel-map, "wifi-2");
+}
+.flaticon-wifi-signal-1:before {
+    content: map-get($flaticon_hotel-map, "wifi-signal-1");
+}
+.flaticon-wifi-3:before {
+    content: map-get($flaticon_hotel-map, "wifi-3");
+}
+.flaticon-wifi-4:before {
+    content: map-get($flaticon_hotel-map, "wifi-4");
+}
+.flaticon-wifi-connection:before {
+    content: map-get($flaticon_hotel-map, "wifi-connection");
+}
+.flaticon-wifi-5:before {
+    content: map-get($flaticon_hotel-map, "wifi-5");
+}
+.flaticon-wifi-6:before {
+    content: map-get($flaticon_hotel-map, "wifi-6");
+}
+.flaticon-refrigerator:before {
+    content: map-get($flaticon_hotel-map, "refrigerator");
+}
+.flaticon-fridge:before {
+    content: map-get($flaticon_hotel-map, "fridge");
+}
+.flaticon-refrigerator-1:before {
+    content: map-get($flaticon_hotel-map, "refrigerator-1");
+}
+.flaticon-fridge-1:before {
+    content: map-get($flaticon_hotel-map, "fridge-1");
+}
+.flaticon-fridge-2:before {
+    content: map-get($flaticon_hotel-map, "fridge-2");
+}
+.flaticon-snowflake:before {
+    content: map-get($flaticon_hotel-map, "snowflake");
+}
+.flaticon-gym:before {
+    content: map-get($flaticon_hotel-map, "gym");
+}
+.flaticon-gym-1:before {
+    content: map-get($flaticon_hotel-map, "gym-1");
+}
+.flaticon-training:before {
+    content: map-get($flaticon_hotel-map, "training");
+}
+.flaticon-weights:before {
+    content: map-get($flaticon_hotel-map, "weights");
+}
+.flaticon-stationary-bike:before {
+    content: map-get($flaticon_hotel-map, "stationary-bike");
+}
+.flaticon-yoga-pose:before {
+    content: map-get($flaticon_hotel-map, "yoga-pose");
+}
+.flaticon-lotus:before {
+    content: map-get($flaticon_hotel-map, "lotus");
+}
+.flaticon-stationary-bike-1:before {
+    content: map-get($flaticon_hotel-map, "stationary-bike-1");
+}
+.flaticon-fitness:before {
+    content: map-get($flaticon_hotel-map, "fitness");
+}
+.flaticon-barbell:before {
+    content: map-get($flaticon_hotel-map, "barbell");
+}
+.flaticon-treadmill:before {
+    content: map-get($flaticon_hotel-map, "treadmill");
+}
+.flaticon-aromatherapy:before {
+    content: map-get($flaticon_hotel-map, "aromatherapy");
+}
+.flaticon-aromatherapy-1:before {
+    content: map-get($flaticon_hotel-map, "aromatherapy-1");
+}
+.flaticon-massage:before {
+    content: map-get($flaticon_hotel-map, "massage");
+}
+.flaticon-essential-oil:before {
+    content: map-get($flaticon_hotel-map, "essential-oil");
+}
+.flaticon-aromatherapy-2:before {
+    content: map-get($flaticon_hotel-map, "aromatherapy-2");
+}
+.flaticon-massage-1:before {
+    content: map-get($flaticon_hotel-map, "massage-1");
+}
+.flaticon-spa:before {
+    content: map-get($flaticon_hotel-map, "spa");
+}
+.flaticon-aromatherapy-3:before {
+    content: map-get($flaticon_hotel-map, "aromatherapy-3");
+}
+.flaticon-shower:before {
+    content: map-get($flaticon_hotel-map, "shower");
+}
+.flaticon-shower-1:before {
+    content: map-get($flaticon_hotel-map, "shower-1");
+}
+.flaticon-bathtub:before {
+    content: map-get($flaticon_hotel-map, "bathtub");
+}
+.flaticon-bathtub-1:before {
+    content: map-get($flaticon_hotel-map, "bathtub-1");
+}
+.flaticon-bathtub-2:before {
+    content: map-get($flaticon_hotel-map, "bathtub-2");
+}
+.flaticon-bathtub-3:before {
+    content: map-get($flaticon_hotel-map, "bathtub-3");
+}
+.flaticon-bathtub-4:before {
+    content: map-get($flaticon_hotel-map, "bathtub-4");
+}
+.flaticon-shower-2:before {
+    content: map-get($flaticon_hotel-map, "shower-2");
+}
+.flaticon-bathtub-5:before {
+    content: map-get($flaticon_hotel-map, "bathtub-5");
+}
+.flaticon-bathroom:before {
+    content: map-get($flaticon_hotel-map, "bathroom");
+}
+.flaticon-bathing:before {
+    content: map-get($flaticon_hotel-map, "bathing");
+}
+.flaticon-swimming-pool:before {
+    content: map-get($flaticon_hotel-map, "swimming-pool");
+}
+.flaticon-swimming-pool-1:before {
+    content: map-get($flaticon_hotel-map, "swimming-pool-1");
+}
+.flaticon-ladder:before {
+    content: map-get($flaticon_hotel-map, "ladder");
+}
+.flaticon-swimming-pool-2:before {
+    content: map-get($flaticon_hotel-map, "swimming-pool-2");
+}
+.flaticon-pool:before {
+    content: map-get($flaticon_hotel-map, "pool");
+}
+.flaticon-pool-1:before {
+    content: map-get($flaticon_hotel-map, "pool-1");
+}
+.flaticon-hot-tub:before {
+    content: map-get($flaticon_hotel-map, "hot-tub");
+}
+.flaticon-sun-bath:before {
+    content: map-get($flaticon_hotel-map, "sun-bath");
+}
+.flaticon-washing-machine:before {
+    content: map-get($flaticon_hotel-map, "washing-machine");
+}
+.flaticon-laundry-service:before {
+    content: map-get($flaticon_hotel-map, "laundry-service");
+}
+.flaticon-area:before {
+    content: map-get($flaticon_hotel-map, "area");
+}
+.flaticon-area-1:before {
+    content: map-get($flaticon_hotel-map, "area-1");
+}
+.flaticon-maximize:before {
+    content: map-get($flaticon_hotel-map, "maximize");
+}
+.flaticon-full-screen:before {
+    content: map-get($flaticon_hotel-map, "full-screen");
+}
+.flaticon-resize:before {
+    content: map-get($flaticon_hotel-map, "resize");
+}
+.flaticon-text-area:before {
+    content: map-get($flaticon_hotel-map, "text-area");
+}
+.flaticon-moka-pot:before {
+    content: map-get($flaticon_hotel-map, "moka-pot");
+}
+.flaticon-espresso:before {
+    content: map-get($flaticon_hotel-map, "espresso");
+}
+.flaticon-kettle:before {
+    content: map-get($flaticon_hotel-map, "kettle");
+}
+.flaticon-baby-crib:before {
+    content: map-get($flaticon_hotel-map, "baby-crib");
+}
+.flaticon-crib:before {
+    content: map-get($flaticon_hotel-map, "crib");
+}
+.flaticon-hair-dryer:before {
+    content: map-get($flaticon_hotel-map, "hair-dryer");
+}
+.flaticon-slippers:before {
+    content: map-get($flaticon_hotel-map, "slippers");
+}
+.flaticon-shampoo:before {
+    content: map-get($flaticon_hotel-map, "shampoo");
+}
+.flaticon-towel-1:before {
+    content: map-get($flaticon_hotel-map, "towel-1");
+}
+.flaticon-towel-2:before {
+    content: map-get($flaticon_hotel-map, "towel-2");
+}
+.flaticon-towel-3:before {
+    content: map-get($flaticon_hotel-map, "towel-3");
+}
+.flaticon-bicycle:before {
+    content: map-get($flaticon_hotel-map, "bicycle");
+}
+.flaticon-goal:before {
+    content: map-get($flaticon_hotel-map, "goal");
+}
+.flaticon-barbeque:before {
+    content: map-get($flaticon_hotel-map, "barbeque");
+}
+.flaticon-barbecue:before {
+    content: map-get($flaticon_hotel-map, "barbecue");
+}
+.flaticon-bar-counter:before {
+    content: map-get($flaticon_hotel-map, "bar-counter");
+}
+.flaticon-cocktail:before {
+    content: map-get($flaticon_hotel-map, "cocktail");
+}
+.flaticon-cocktail-1:before {
+    content: map-get($flaticon_hotel-map, "cocktail-1");
+}
+.flaticon-cocktail-2:before {
+    content: map-get($flaticon_hotel-map, "cocktail-2");
+}
+.flaticon-veterinary:before {
+    content: map-get($flaticon_hotel-map, "veterinary");
+}
+.flaticon-disabilities:before {
+    content: map-get($flaticon_hotel-map, "disabilities");
+}
+.flaticon-wheelchair:before {
+    content: map-get($flaticon_hotel-map, "wheelchair");
+}
+.flaticon-hot:before {
+    content: map-get($flaticon_hotel-map, "hot");
+}
+.flaticon-sunny:before {
+    content: map-get($flaticon_hotel-map, "sunny");
+}
+.flaticon-weather:before {
+    content: map-get($flaticon_hotel-map, "weather");
+}
+.flaticon-television:before {
+    content: map-get($flaticon_hotel-map, "television");
+}
+.flaticon-landscape-1:before {
+    content: map-get($flaticon_hotel-map, "landscape-1");
+}
+.flaticon-landscape-2:before {
+    content: map-get($flaticon_hotel-map, "landscape-2");
+}
+.flaticon-signpost-1:before {
+    content: map-get($flaticon_hotel-map, "signpost-1");
+}
+.flaticon-biodiversity:before {
+    content: map-get($flaticon_hotel-map, "biodiversity");
+}
+.flaticon-biodiversity-1:before {
+    content: map-get($flaticon_hotel-map, "biodiversity-1");
+}
+.flaticon-gluten-free:before {
+    content: map-get($flaticon_hotel-map, "gluten-free");
+}
+.flaticon-salad:before {
+    content: map-get($flaticon_hotel-map, "salad");
+}
+.flaticon-plant-based:before {
+    content: map-get($flaticon_hotel-map, "plant-based");
+}
+.flaticon-tuxedo:before {
+    content: map-get($flaticon_hotel-map, "tuxedo");
+}
+.flaticon-clothes:before {
+    content: map-get($flaticon_hotel-map, "clothes");
+}
+.flaticon-open-sign:before {
+    content: map-get($flaticon_hotel-map, "open-sign");
+}
+.flaticon-24-hours:before {
+    content: map-get($flaticon_hotel-map, "24-hours");
+}
+.flaticon-reserved:before {
+    content: map-get($flaticon_hotel-map, "reserved");
+}
+.flaticon-snowboard:before {
+    content: map-get($flaticon_hotel-map, "snowboard");
+}
+.flaticon-ski-equipment:before {
+    content: map-get($flaticon_hotel-map, "ski-equipment");
+}
+.flaticon-ski-lift:before {
+    content: map-get($flaticon_hotel-map, "ski-lift");
+}
+.flaticon-alpine:before {
+    content: map-get($flaticon_hotel-map, "alpine");
+}
+.flaticon-goggles:before {
+    content: map-get($flaticon_hotel-map, "goggles");
+}
+.flaticon-snorkel:before {
+    content: map-get($flaticon_hotel-map, "snorkel");
+}
+.flaticon-serving-dish:before {
+    content: map-get($flaticon_hotel-map, "serving-dish");
+}
+.flaticon-wine:before {
+    content: map-get($flaticon_hotel-map, "wine");
+}
+.flaticon-safe-box:before {
+    content: map-get($flaticon_hotel-map, "safe-box");
+}
+.flaticon-strongbox:before {
+    content: map-get($flaticon_hotel-map, "strongbox");
+}
+.flaticon-charity:before {
+    content: map-get($flaticon_hotel-map, "charity");
+}
+.flaticon-win:before {
+    content: map-get($flaticon_hotel-map, "win");
+}
+.flaticon-shield:before {
+    content: map-get($flaticon_hotel-map, "shield");
+}
+.flaticon-payment-protection:before {
+    content: map-get($flaticon_hotel-map, "payment-protection");
+}
+.flaticon-credit-card-payment:before {
+    content: map-get($flaticon_hotel-map, "credit-card-payment");
+}
+.flaticon-circular-clock:before {
+    content: map-get($flaticon_hotel-map, "circular-clock");
+}
+.flaticon-calendar-5:before {
+    content: map-get($flaticon_hotel-map, "calendar-5");
+}
+.flaticon-presentation:before {
+    content: map-get($flaticon_hotel-map, "presentation");
+}
+.flaticon-board:before {
+    content: map-get($flaticon_hotel-map, "board");
+}
+.flaticon-printer:before {
+    content: map-get($flaticon_hotel-map, "printer");
+}
